@@ -1,0 +1,21 @@
+// Script para instalar PDF.js
+// Este script mostra como instalar a dependência necessária
+
+console.log("Para usar a extração real de PDF, você precisa instalar PDF.js:")
+console.log("npm install pdfjs-dist")
+console.log("")
+console.log("Ou se estiver usando yarn:")
+console.log("yarn add pdfjs-dist")
+console.log("")
+console.log("PDF.js é uma biblioteca JavaScript que renderiza PDFs usando HTML5 Canvas e SVG.")
+console.log("Ela permite extrair texto de PDFs de forma confiável.")
+console.log("")
+console.log("Características da implementação:")
+console.log("✅ Extrai texto real de arquivos PDF")
+console.log("✅ Processa todas as páginas do PDF")
+console.log("✅ Limpa e normaliza o texto extraído")
+console.log("✅ Verifica se o PDF contém texto extraível")
+console.log("✅ Tratamento de erros robusto")
+console.log("")
+console.log("Nota: PDFs escaneados (apenas imagens) podem não ter texto extraível.")
+console.log("Para esses casos, seria necessário usar OCR (Reconhecimento Óptico de Caracteres).")
